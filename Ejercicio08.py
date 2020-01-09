@@ -10,6 +10,7 @@ while (bucle == True):
     negativos = 0
     mediaPositivos = 0
     mediaNegativos = 0
+    os.system('cls')
     print("------------------------------------------------------------")
     print("-     Array 10 números y media de positivos y negativos    -")
     print("------------------------------------------------------------")
