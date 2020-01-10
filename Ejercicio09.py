@@ -7,9 +7,8 @@ print("-------------------------------------------------------------------------
 print("-                Array con los 20 primeros números pares                 -")
 print("--------------------------------------------------------------------------")
 # rellenar el array con los datos
-maximo = len(pares)
-for x in range(0, maximo):
+for x in range(0, 20):
     pares[x] = (x + 1) * 2
 # mostrar datos
-for x in range(0, maximo):
+for x in range(0, 20):
     print(pares[x])

@@ -32,9 +32,9 @@ while (bucle == True):
             negativos += 1
     
     # Mostramos los resultados
-    print("Has introducido", positivos, "números positivos.");
-    print("Has introducido", negativos, "números negativos.");
-    print("Has introducido", ceros, "ceros.");
+    print("Has introducido", positivos, "números positivos.")
+    print("Has introducido", negativos, "números negativos.")
+    print("Has introducido", ceros, "ceros.")
 
     # para continuar o no
     opcion = input("¿Desea continuar introduciendo números? (S/N): ")
