@@ -16,7 +16,7 @@ while (bucle == True):
     print("-  Array 10 números y contar positivos, negativos y ceros  -")
     print("------------------------------------------------------------")
     for x in range(0, 10):
-        if (x < 10):
+        if (x < 9):
             texto = "0"+str(x+1)+" - Introduce el valor: "
         else:
             texto = str(x+1)+" - Introduce el valor: "
@@ -37,8 +37,11 @@ while (bucle == True):
     print("Has introducido", ceros, "ceros.")
 
     # para continuar o no
-    opcion = input("¿Desea continuar introduciendo números? (S/N): ")
-    if (opcion == "n" or opcion == "N"):
-        bucle = False
-    else:
-        bucle = True
+    opcion = ""
+    while (opcion != "n" and opcion != "N" and opcion != "s" and opcion != "S"):
+        opcion = input("¿Desea continuar introduciendo números? (S/N): ")
+        if (opcion == "n" or opcion == "N"):
+            bucle = False
+        elif (opcion == "s" or opcion == "S"):
+            bucle = True
+print("bye!")

@@ -32,8 +32,11 @@ while (bucle == True):
         print(x)
 
     # para continuar o no
-    opcion = input("¿Desea continuar introduciendo números? (S/N): ")
-    if (opcion == "n" or opcion == "N"):
-        bucle = False
-    else:
-        bucle = True
+    opcion = ""
+    while (opcion != "n" and opcion != "N" and opcion != "s" and opcion != "S"):
+        opcion = input("¿Desea continuar introduciendo números? (S/N): ")
+        if (opcion == "n" or opcion == "N"):
+            bucle = False
+        elif (opcion == "s" or opcion == "S"):
+            bucle = True
+print("bye!")
